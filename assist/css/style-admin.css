@@ -1,0 +1,95 @@
+body{	
+	/*background-color:rgb(27, 44, 45); */
+	background-image: url('../images/bg.jpg'); 
+	background-size: 100%;
+	background-opacity:0.3;
+	margin:0; padding:0;
+	background: fixed; 
+}
+a{ text-decoration: none; }
+a:hover{ text-decoration: none; }
+/* The side navigation menu */
+.sidenav {
+    height: 100%; /* 100% Full-height */  width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */  z-index: 1; /* Stay on top */  top: 0; left: 0; background-color: orange; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */ padding-top: 60px; /* Place content 60px from the top */ 
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */ 
+}
+/* The navigation menu links */
+.sidenav a { padding: 8px 8px 8px 32px; text-decoration: none; font-size: 25px; color: #818181; display: block; transition: 0.3s }
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover, .offcanvas a:focus{ color: #f1f1f1; }
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn { position: absolute; top: 0; right: 25px; font-size: 36px; margin-left: 50px; }
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main { transition: margin-left .5s; padding: 20px; }
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) { .sidenav {padding-top: 15px;}  .sidenav a {font-size: 18px;} }
+.menu-icon{	color:orange; font-size:300%; }
+
+.user-profile{ text-align:center; color:white;}
+.borderone{ border:1px solid white; width:80%; margin:3px auto;}
+.bordertwo{ border:1px solid white; width:50%;  margin:3px auto;}
+
+.section-header{
+	text-align: center; margin-top:-4%; padding: 0px; color:white;
+}
+.section-header h1 #one{  
+	animation: title-animation 15s infinite; 
+}
+@keyframes title-animation{
+	0%  { color: rgb(188, 101, 24); }
+	10% { color: rgb(177, 188, 24); }
+	20% { color: rgb(60, 188, 24) ; }
+	30% { color: rgb(60, 188, 24) ; }
+	40% { color: rgb(23, 188, 163); }
+
+	50% { color: rgb(23, 188, 163);}
+
+	60% { color: rgb(23, 188, 163); }
+	70% { color: rgb(23, 188, 163); }
+	80% { color: rgb(188, 23, 77); }
+	90% { color: rgb(188, 23, 77); }
+	100%{ color: rgb(188, 23, 77); }
+}
+
+.section-portfolio .link-item{
+	margin-top:5%;
+}
+.section-portfolio .link-item .thumbnail{
+	min-height: 150px; border-radius: 0px; background: none;
+	border: 1px solid orange; 
+}
+.one{ color:orange; border-color:orange;}
+.three{ color:orange; border-color:orange;}
+
+.section-portfolio .link-item h4{
+	border-radius: 0px; text-align:center; 
+	display: block; 
+}
+.section-portfolio .link-item h4 i{
+	font-size:4em; margin-bottom: 5%;
+}
+
+.main-content{
+	min-height: 250px; color:white;
+}
+.content-home{
+	padding:5%; text-align: center;
+}
+.content-home h4{ color:orange; margin-top:3%;}
+.content-home p{  }
+
+.btn{ border-radius: 0px; margin-top:1%;}
+
+table { color:white; }
+tbody{
+
+}
+tbody tr{
+	
+}
+thead tr th{
+	background: rgba(70,30,0,0.5); text-align: center; 
+}
+tbody tr td{ background: rgba(0,0,0,0.9);  }

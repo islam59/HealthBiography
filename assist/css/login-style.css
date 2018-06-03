@@ -1,0 +1,95 @@
+body{
+	/*background-color:rgb(27, 44, 45); */
+	background-image: url('../images/bg.jpg'); 
+	background-size: 100%;
+	background-opacity:0.3;
+	margin:0; padding:0;
+	background-position: fixed; 
+
+}
+a{ text-decoration: none; }
+a:hover{ text-decoration: none; }
+.section-login-header{}
+.section-login-header h1{
+	text-align:center;
+	font-size:2em; color:white;    
+	border-radius: 0%;
+	background: none;
+	padding:4%;
+	width:50%; margin:3% auto;
+	box-shadow: -10px 0px 100px color: rgb(188, 101, 24);
+	animation: shadow-animation 15s infinite; 
+}
+@keyframes shadow-animation{
+	0%  {  box-shadow: -1px 0px 10px color: rgb(188, 101, 24);}
+	10% {  box-shadow: -1px 0px 10px rgb(177, 188, 24);}
+	20% {  box-shadow: -1px 0px 10px rgb(60, 188, 24);}
+	30% {  box-shadow: -1px 0px 10px rgb(60, 188, 24);}
+	40% {  box-shadow: -1px 0px 10px rgb(23, 188, 163);}
+
+	50% { box-shadow: -1px 0px 10px rgb(23, 188, 163);}
+
+	60% {  box-shadow: -1px 0px 10px rgb(23, 188, 163);}
+	70% {  box-shadow: -1px 0px 10px rgb(23, 188, 163);}
+	80% {  box-shadow: -1px 0px 10px rgb(188, 23, 77);}
+	90% {  box-shadow: -1px 0px 10px rgb(188, 23, 77);}
+	100%{  box-shadow: -1px 0px 10px rgb(188, 23, 77);}
+}
+.section-login-header h1 #one{  
+	animation: title-animation 15s infinite; 
+}
+@keyframes title-animation{
+	0%  { color: rgb(188, 101, 24); }
+	10% { color: rgb(177, 188, 24); }
+	20% { color: rgb(60, 188, 24) ; }
+	30% { color: rgb(60, 188, 24) ; }
+	40% { color: rgb(23, 188, 163); }
+
+	50% { color: rgb(23, 188, 163);}
+
+	60% { color: rgb(23, 188, 163); }
+	70% { color: rgb(23, 188, 163); }
+	80% { color: rgb(188, 23, 77); }
+	90% { color: rgb(188, 23, 77); }
+	100%{ color: rgb(188, 23, 77); }
+}
+
+.section-portfolio{}
+
+.section-portfolio .link-item{
+	margin-top:2%;
+}
+.section-portfolio .link-item .thumbnail{
+	min-height: 200px; border-radius: 0px; background: none;
+	border: 1px solid orange; 
+}
+.one{transform:rotate(-15deg); margin-top:20%; color:orange; border-color:orange;}
+.three{transform:rotate(15deg); margin-top:20%; color:orange; border-color:orange;}
+
+.section-portfolio .link-item h4{
+	border-radius: 0px; text-align:center; 
+	display: block; font-size:2em;
+}
+.section-portfolio .link-item h4 i{
+	font-size:5em; 
+}
+
+
+.doctor-registration{
+	margin-top:1%;
+}
+
+.form-header{
+	background: rgb(27, 44, 45);
+}
+
+.form-header h3{ padding: 1%;  color:silver;}
+
+label{
+	color:white;
+}
+
+input[type='text'],input[type='password'],input[type='email'],input[type='file']{
+	border-radius: 0px;
+}
+sup{ color:red; }
